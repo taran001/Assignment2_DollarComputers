@@ -15,14 +15,12 @@ namespace DollarComputers
     {
         public SplashScreen()
         {
+
             InitializeComponent();
             //TODO: Add Icon
+            //TODO : Citation Of Code
         }
 
-        private void SplashScreen_Load(object sender, EventArgs e)
-        {
-            Thread.Sleep(3000);
-
-        }
+    
     }
 }

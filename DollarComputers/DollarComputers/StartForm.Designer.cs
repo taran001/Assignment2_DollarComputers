@@ -53,7 +53,7 @@
             this.OpenSavedOrderButton.TabIndex = 2;
             this.OpenSavedOrderButton.Text = "Open a Saved Order";
             this.OpenSavedOrderButton.UseVisualStyleBackColor = true;
-            this.OpenSavedOrderButton.Click += new System.EventHandler(this.button2_Click);
+            this.OpenSavedOrderButton.Click += new System.EventHandler(this.OpenSavedOrderButton_Click);
             // 
             // button3
             // 
@@ -88,6 +88,7 @@
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome To Dollar Computers";
+            this.Load += new System.EventHandler(this.StartForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
