@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StartForm));
             this.StartNewOrderButton = new System.Windows.Forms.Button();
             this.OpenSavedOrderButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -67,11 +68,11 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::DollarComputers.Properties.Resources.Standing_Man_96px;
+            this.pictureBox1.Image = global::DollarComputers.Properties.Resources.splashImage;
             this.pictureBox1.Location = new System.Drawing.Point(74, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(145, 137);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -85,6 +86,7 @@
             this.Controls.Add(this.OpenSavedOrderButton);
             this.Controls.Add(this.StartNewOrderButton);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome To Dollar Computers";

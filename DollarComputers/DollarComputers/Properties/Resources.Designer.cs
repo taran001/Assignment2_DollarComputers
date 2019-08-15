@@ -63,6 +63,16 @@ namespace DollarComputers.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap splashImage {
+            get {
+                object obj = ResourceManager.GetObject("splashImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Standing_Man_96px {
             get {
                 object obj = ResourceManager.GetObject("Standing Man_96px", resourceCulture);

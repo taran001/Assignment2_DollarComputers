@@ -11,13 +11,19 @@ using System.Windows.Forms;
 
 namespace DollarComputers
 {
+    /// <summary>
+    /// Application Name : DollarComputers
+    /// Author : Taranpreet Singh
+    /// ID : 301044958
+    /// App Creation Date : 14 / 05 / 2019
+    /// </summary>
     public partial class SplashScreen : Form
     {
         public SplashScreen()
         {
 
             InitializeComponent();
-            //TODO: Add Icon
+            
             //TODO : Citation Of Code
         }
 

@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace DollarComputers
 {
+    /// <summary>
+    /// Application Name : DollarComputers
+    /// Author : Taranpreet Singh
+    /// ID : 301044958
+    /// App Creation Date : 14 / 05 / 2019
+    /// </summary>
     public class Product
     {
         int _productID;

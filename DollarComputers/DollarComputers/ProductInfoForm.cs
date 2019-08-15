@@ -13,6 +13,12 @@ namespace DollarComputers
 {
     public partial class ProductInfoForm : Form
     {
+        /// <summary>
+        /// Application Name : DollarComputers
+        /// Author : Taranpreet Singh
+        /// ID : 301044958
+        /// App Creation Date : 14 / 05 / 2019
+        /// </summary>
         private Product P;
 
         public ProductInfoForm()
@@ -29,7 +35,7 @@ namespace DollarComputers
         
         private void ProductInfoForm_Load(object sender, EventArgs e)
         {
-
+            // Assign values of selected row to all the fields
             if (P != null)
             {
                 this.ProductIdTextBox.Text = P.ProductID.ToString();
@@ -101,6 +107,7 @@ namespace DollarComputers
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // Save file with default name "Product.txt"
             saveFileDialog1.Filter = "Text Files | *.txt";
             saveFileDialog1.FileName = "Product.txt";
             if(saveFileDialog1.ShowDialog() == DialogResult.OK)

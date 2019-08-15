@@ -148,6 +148,7 @@
             // 
             // ProductIdTextBox
             // 
+            this.ProductIdTextBox.BackColor = System.Drawing.Color.White;
             this.ProductIdTextBox.Enabled = false;
             this.ProductIdTextBox.Location = new System.Drawing.Point(143, 39);
             this.ProductIdTextBox.Name = "ProductIdTextBox";
@@ -156,6 +157,7 @@
             // 
             // ConditionTextBox
             // 
+            this.ConditionTextBox.BackColor = System.Drawing.Color.White;
             this.ConditionTextBox.Enabled = false;
             this.ConditionTextBox.Location = new System.Drawing.Point(405, 39);
             this.ConditionTextBox.Name = "ConditionTextBox";
@@ -173,6 +175,7 @@
             // 
             // CostTextBox
             // 
+            this.CostTextBox.BackColor = System.Drawing.Color.White;
             this.CostTextBox.Enabled = false;
             this.CostTextBox.Location = new System.Drawing.Point(647, 39);
             this.CostTextBox.Name = "CostTextBox";
@@ -207,6 +210,7 @@
             // 
             // ModelTextBox
             // 
+            this.ModelTextBox.BackColor = System.Drawing.Color.White;
             this.ModelTextBox.Enabled = false;
             this.ModelTextBox.Location = new System.Drawing.Point(330, 78);
             this.ModelTextBox.Name = "ModelTextBox";
@@ -224,6 +228,7 @@
             // 
             // OsTextBox
             // 
+            this.OsTextBox.BackColor = System.Drawing.Color.White;
             this.OsTextBox.Enabled = false;
             this.OsTextBox.Location = new System.Drawing.Point(330, 29);
             this.OsTextBox.Name = "OsTextBox";
@@ -241,6 +246,7 @@
             // 
             // ManufacTextBox
             // 
+            this.ManufacTextBox.BackColor = System.Drawing.Color.White;
             this.ManufacTextBox.Enabled = false;
             this.ManufacTextBox.Location = new System.Drawing.Point(91, 78);
             this.ManufacTextBox.Name = "ManufacTextBox";
@@ -258,6 +264,7 @@
             // 
             // PlatformTextBox
             // 
+            this.PlatformTextBox.BackColor = System.Drawing.Color.White;
             this.PlatformTextBox.Enabled = false;
             this.PlatformTextBox.Location = new System.Drawing.Point(91, 29);
             this.PlatformTextBox.Name = "PlatformTextBox";
@@ -302,6 +309,7 @@
             // 
             // WebcamTextBox
             // 
+            this.WebcamTextBox.BackColor = System.Drawing.Color.White;
             this.WebcamTextBox.Enabled = false;
             this.WebcamTextBox.Location = new System.Drawing.Point(491, 112);
             this.WebcamTextBox.Name = "WebcamTextBox";
@@ -319,6 +327,7 @@
             // 
             // GpuTypeTextBox
             // 
+            this.GpuTypeTextBox.BackColor = System.Drawing.Color.White;
             this.GpuTypeTextBox.Enabled = false;
             this.GpuTypeTextBox.Location = new System.Drawing.Point(491, 75);
             this.GpuTypeTextBox.Name = "GpuTypeTextBox";
@@ -336,6 +345,7 @@
             // 
             // hddTextBox
             // 
+            this.hddTextBox.BackColor = System.Drawing.Color.White;
             this.hddTextBox.Enabled = false;
             this.hddTextBox.Location = new System.Drawing.Point(491, 38);
             this.hddTextBox.Name = "hddTextBox";
@@ -353,6 +363,7 @@
             // 
             // CpuSpeedTextBox
             // 
+            this.CpuSpeedTextBox.BackColor = System.Drawing.Color.White;
             this.CpuSpeedTextBox.Enabled = false;
             this.CpuSpeedTextBox.Location = new System.Drawing.Point(273, 112);
             this.CpuSpeedTextBox.Name = "CpuSpeedTextBox";
@@ -370,6 +381,7 @@
             // 
             // CpuNumberTextBox
             // 
+            this.CpuNumberTextBox.BackColor = System.Drawing.Color.White;
             this.CpuNumberTextBox.Enabled = false;
             this.CpuNumberTextBox.Location = new System.Drawing.Point(273, 75);
             this.CpuNumberTextBox.Name = "CpuNumberTextBox";
@@ -387,6 +399,7 @@
             // 
             // LcdTextBox
             // 
+            this.LcdTextBox.BackColor = System.Drawing.Color.White;
             this.LcdTextBox.Enabled = false;
             this.LcdTextBox.Location = new System.Drawing.Point(273, 38);
             this.LcdTextBox.Name = "LcdTextBox";
@@ -404,6 +417,7 @@
             // 
             // CpuTypeTextBox
             // 
+            this.CpuTypeTextBox.BackColor = System.Drawing.Color.White;
             this.CpuTypeTextBox.Enabled = false;
             this.CpuTypeTextBox.Location = new System.Drawing.Point(91, 112);
             this.CpuTypeTextBox.Name = "CpuTypeTextBox";
@@ -421,6 +435,7 @@
             // 
             // CpuBrandTextBox
             // 
+            this.CpuBrandTextBox.BackColor = System.Drawing.Color.White;
             this.CpuBrandTextBox.Enabled = false;
             this.CpuBrandTextBox.Location = new System.Drawing.Point(91, 75);
             this.CpuBrandTextBox.Name = "CpuBrandTextBox";
@@ -438,6 +453,7 @@
             // 
             // MemoryTextBox
             // 
+            this.MemoryTextBox.BackColor = System.Drawing.Color.White;
             this.MemoryTextBox.Enabled = false;
             this.MemoryTextBox.Location = new System.Drawing.Point(91, 38);
             this.MemoryTextBox.Name = "MemoryTextBox";
@@ -456,9 +472,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(72, 421);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(181, 13);
+            this.label4.Size = new System.Drawing.Size(217, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = "Click Next To Confirm Your Selection";
             // 

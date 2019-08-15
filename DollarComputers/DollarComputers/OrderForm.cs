@@ -29,7 +29,7 @@ namespace DollarComputers
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Taranpreet Singh \n ver. 0.0.1 \n www.dollarscomputer.com \n +1(31) 11 3122 42 ");
+            MessageBox.Show("Taranpreet Singh \nver. 0.0.1 \nwww.dollarscomputer.com \n+1(416) 859-9480 ");
 
         }
 
@@ -77,6 +77,7 @@ namespace DollarComputers
             SalesTaxTextBox.Text = ((P.Cost / 100) * 13).ToString();
             TotalTextBox.Text = (((P.Cost / 100) * 13) + P.Cost).ToString();
 
+            // Load a random image
             int randomImage = new Random().Next(1, 4);
             ProductImageBox.Load(@"" + randomImage + ".jpg");
             
@@ -97,6 +98,7 @@ namespace DollarComputers
 
         private void FinishButton_Click(object sender, EventArgs e)
         {
+            // Check the dialog result
             DialogResult R = MessageBox.Show("Thanks for doing bussiness with us \n your order will be placed in 7/ 10 days...", "Thank You !",MessageBoxButtons.OKCancel);
             if(R == DialogResult.OK)
             {

@@ -13,17 +13,21 @@ namespace DollarComputers
 {
     public partial class StartForm : Form
     {
+        /// <summary>
+        /// Application Name : DollarComputers
+        /// Author : Taranpreet Singh
+        /// ID : 301044958
+        /// App Creation Date : 14 / 05 / 2019
+        /// </summary>
         public StartForm()
         {
-            //Thread T = new Thread(new ThreadStart(StartSplash));
-            //T.Start();
-            //Thread.Sleep(3000);
+            Thread T = new Thread(new ThreadStart(StartSplash));
+            T.Start();
+            Thread.Sleep(3000);
             InitializeComponent();
-            //TODO: Add Icon
+            T.Abort();
+            
 
-            //T.Abort();
-            //TODO : un comment this
-                
         }
 
         private void StartSplash()

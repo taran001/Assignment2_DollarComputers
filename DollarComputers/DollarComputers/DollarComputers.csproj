@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>splashImageIcon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -135,6 +138,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Standing Man_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\splashImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="splashImageIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
