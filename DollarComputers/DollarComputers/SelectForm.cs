@@ -47,5 +47,32 @@ namespace DollarComputers
         {
             Application.Exit();
         }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            //TODO : Make this instance in Program.cs
+            //TODO  : Make this code efficient
+            this.Hide();
+            Product P = new Product();
+            P.ProductID = int.Parse(dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+            P.Condition = dataGridView1.SelectedRows[0].Cells[14].Value.ToString();
+            P.Cost = double.Parse(dataGridView1.SelectedRows[0].Cells[1].Value.ToString());
+            P.Platform = dataGridView1.SelectedRows[0].Cells[16].Value.ToString();
+            P.OS = dataGridView1.SelectedRows[0].Cells[15].Value.ToString();
+            P.Manufac = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+            P.Model = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
+            P.Memory = dataGridView1.SelectedRows[0].Cells[5].Value.ToString();
+            P.Lcd = dataGridView1.SelectedRows[0].Cells[7].Value.ToString();
+            P.Hdd = dataGridView1.SelectedRows[0].Cells[17].Value.ToString();
+            P.CpuBrand = dataGridView1.SelectedRows[0].Cells[10].Value.ToString();
+            P.CpuNumber = dataGridView1.SelectedRows[0].Cells[13].Value.ToString();
+            P.GpuType = dataGridView1.SelectedRows[0].Cells[19].Value.ToString();
+            P.CpuType = dataGridView1.SelectedRows[0].Cells[11].Value.ToString();
+            P.CpuSpeed = dataGridView1.SelectedRows[0].Cells[12].Value.ToString();
+            P.Webcam = dataGridView1.SelectedRows[0].Cells[30].Value.ToString();
+            
+            ProductInfoForm PIF = new ProductInfoForm(P);
+            PIF.Show();
+        }
     }
 }

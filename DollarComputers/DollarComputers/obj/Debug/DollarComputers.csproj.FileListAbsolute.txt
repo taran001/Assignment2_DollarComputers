@@ -10,3 +10,4 @@ D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComp
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.exe
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.pdb
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.csprojResolveAssemblyReference.cache
+D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.ProductInfoForm.resources
