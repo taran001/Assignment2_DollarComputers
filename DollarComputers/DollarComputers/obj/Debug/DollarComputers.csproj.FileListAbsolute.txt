@@ -2,6 +2,8 @@ D:\Freelance\Client Taran\DollarComputers\DollarComputers\bin\Debug\DollarComput
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\bin\Debug\DollarComputers.exe.config
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\bin\Debug\DollarComputers.exe
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\bin\Debug\DollarComputers.pdb
+D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.csprojResolveAssemblyReference.cache
+D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.ProductInfoForm.resources
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.Properties.Resources.resources
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.SelectForm.resources
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.SplashScreen.resources
@@ -9,5 +11,4 @@ D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComp
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.csproj.GenerateResource.Cache
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.exe
 D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.pdb
-D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.csprojResolveAssemblyReference.cache
-D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.ProductInfoForm.resources
+D:\Freelance\Client Taran\Assignment2_DollarComputers\DollarComputers\DollarComputers\obj\Debug\DollarComputers.OrderForm.resources

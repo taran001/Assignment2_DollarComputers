@@ -139,5 +139,30 @@ namespace DollarComputers
         {
             Application.Exit();
         }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            Product P = new Product();
+            P.ProductID= int.Parse(this.ProductIdTextBox.Text );
+            P.Condition =this.ConditionTextBox.Text ;
+            P.Cost = double.Parse(this.CostTextBox.Text);
+            P.Platform = this.PlatformTextBox.Text ;
+            P.OS = this.OsTextBox.Text;
+            P.Manufac = this.ManufacTextBox.Text;
+            P.Model = this.ModelTextBox.Text;
+            P.Memory = this.MemoryTextBox.Text;
+            P.Lcd = this.LcdTextBox.Text;
+            P.Hdd = this.hddTextBox.Text;
+            P.CpuBrand = this.CpuBrandTextBox.Text;
+            P.CpuNumber = this.CpuNumberTextBox.Text;
+            P.GpuType = this.GpuTypeTextBox.Text;
+            P.CpuType = this.CpuTypeTextBox.Text;
+            P.CpuSpeed = this.CpuSpeedTextBox.Text;
+            P.Webcam = this.WebcamTextBox.Text;
+
+            this.Hide();
+            OrderForm O = new OrderForm(P);
+            O.Show();
+        }
     }
 }
