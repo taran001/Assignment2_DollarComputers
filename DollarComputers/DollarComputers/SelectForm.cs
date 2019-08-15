@@ -78,5 +78,11 @@ namespace DollarComputers
             ProductInfoForm PIF = new ProductInfoForm(P);
             PIF.Show();
         }
+
+        private void ProductDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            NextButton.Enabled = true;
+            showSelectedItem();
+        }
     }
 }

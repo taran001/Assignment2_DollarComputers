@@ -121,12 +121,13 @@
             this.powerDataGridViewTextBoxColumn,
             this.webcamDataGridViewTextBoxColumn});
             this.ProductDataGridView.DataSource = this.productsBindingSource;
-            this.ProductDataGridView.Location = new System.Drawing.Point(15, 43);
+            this.ProductDataGridView.Location = new System.Drawing.Point(15, 45);
             this.ProductDataGridView.Name = "ProductDataGridView";
             this.ProductDataGridView.ReadOnly = true;
             this.ProductDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.ProductDataGridView.Size = new System.Drawing.Size(856, 352);
             this.ProductDataGridView.TabIndex = 1;
+            this.ProductDataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ProductDataGridView_CellClick);
             this.ProductDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // productIDDataGridViewTextBoxColumn

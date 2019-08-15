@@ -59,6 +59,7 @@
             this.SpecsListBox = new System.Windows.Forms.ListBox();
             this.ProductImageBox = new System.Windows.Forms.PictureBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.TotalTextBox = new System.Windows.Forms.TextBox();
             this.SalesTaxTextBox = new System.Windows.Forms.TextBox();
             this.PriceTextBox = new System.Windows.Forms.TextBox();
@@ -68,7 +69,6 @@
             this.BackButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
             this.FinishButton = new System.Windows.Forms.Button();
-            this.label18 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -100,14 +100,14 @@
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.printToolStripMenuItem.Text = "Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.CancelButton_Click);
             // 
@@ -393,6 +393,14 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Your Price";
             // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label18.Location = new System.Drawing.Point(6, 122);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(425, 3);
+            this.label18.TabIndex = 19;
+            // 
             // TotalTextBox
             // 
             this.TotalTextBox.Enabled = false;
@@ -474,14 +482,6 @@
             this.FinishButton.UseVisualStyleBackColor = true;
             this.FinishButton.Click += new System.EventHandler(this.FinishButton_Click);
             // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label18.Location = new System.Drawing.Point(6, 122);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(425, 3);
-            this.label18.TabIndex = 19;
-            // 
             // OrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -499,7 +499,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "OrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "OrderForm";
+            this.Text = "Complete Your Order";
             this.Load += new System.EventHandler(this.OrderForm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
